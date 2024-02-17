@@ -1,0 +1,22 @@
+@import '../../variables/variables.module.scss';
+
+.container {
+  max-width: $desctop;
+  padding: 0 5px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  height: 119px;
+  &__block {
+    display: flex;
+    gap: 48px;
+  }
+  &__link {
+    @include font(20, 500);
+    line-height: 25px;
+  }
+}

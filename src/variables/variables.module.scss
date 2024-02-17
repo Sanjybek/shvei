@@ -1,0 +1,20 @@
+$desctop: 1500px;
+$fontStyle: normal;
+$fontWeight400: 400px;
+$fontWeight500: 500px;
+
+@mixin font($size, $weight, $style: normal, $family: Manrope) {
+  font-size: #{$size + px};
+  font-weight: $weight;
+  font-style: $style;
+  font-family: $family;
+}
+
+:root {
+  --colorYellow: #eef2d1;
+  --colorBlack: rgb(30, 30, 30);
+  --colorOrange: orange;
+  --colorRed: #f41e1e;
+  --colorBlue: #17156c;
+  --colorWhite: white;
+}
